@@ -1,0 +1,221 @@
+.imagen1{
+    float: left;
+}
+.avatar{
+    width: 100px;
+    margin:  auto;
+    position: relative;
+     top: 25px; 
+  }
+  .register{
+      float: right;
+  }
+  .estilo{
+    background: #1f53c5;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.50em;
+    margin:0 auto;
+    padding: 10px 0px;
+    text-align: center;
+    width: 300px;
+    text-decoration: none;
+    box-shadow: 0px 3px 0px black;  
+  }
+   
+.container{
+    margin: 0 auto;
+    width: 90%;
+    margin-bottom: 50px;
+}
+body{
+    background-image: url('../IMG/fondo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin: 0;
+    padding: 0;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;/*importante adaptable*/
+}
+.text-center{
+    text-align: center;
+}
+.precio{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+.columna{
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border:1px solid rgb(223, 223, 223);
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px rgb(129, 129, 129);
+    width: 25%;
+    box-sizing: border-box;
+}
+.btn-precio{
+    background: rgb(236, 166, 14);
+    display: block;
+    padding: 25px;
+    color: rgb(255, 254, 254);
+    text-decoration: none;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+.btn-precio:hover{
+    background: rgb(199, 122, 7);
+}
+@media(max-width: 1070px){
+    .columna{
+        width: 45%;
+        margin-bottom: 10px;
+    }
+}
+.imagen{
+    margin: 0 auto;
+    height: 250px;
+    width: 250px;
+    overflow: hidden;
+    border: rgb(235, 229, 229) 20px solid;
+    display:block;
+}
+.flex{
+    display: flex;
+   /** flex-wrap: wrap;*/
+}
+.btn-precios{
+    background: #F48A11;
+    box-shadow: 0px 5px 0px #A15805;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.50em;
+    margin: 20px;
+    padding: 10px 0px;
+    text-align: center;
+    width: 200px;
+    text-decoration: none;
+}
+.btn-precios:hover{
+    box-shadow: 0px 0px 0px;
+    padding-top:6px ;
+}
+.btn-precios.m{
+    width: 350px;
+    height: 60px;
+}
+.boton{
+    background: #7f8c8d;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.50em;
+    margin: 20px;
+    padding: 10px 0px;
+    text-align: center;
+    width: 200px;
+    text-decoration: none;
+    box-shadow: 0px 3px 0px black;  
+}
+.boton.color{
+    background: #F48A11;
+    box-shadow: 0px 5px 0px #A15805;
+}
+/**tamaños**/
+.boton.m{
+    width: 320px;
+    height: 60px;
+}
+/**Efectos**/
+.boton:hover{
+   box-shadow: 0px 0px 0px;
+   padding-top:6px ;
+}
+ /**********************************/
+ .wee{
+	max-width: 1170px;
+	margin:auto;
+}
+.hola{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #707070;
+    padding: 70px 0;
+}
+.footer-col{
+  box-sizing: border-box;
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e0850d;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #6d6d6d;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}

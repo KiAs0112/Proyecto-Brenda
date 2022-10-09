@@ -1,0 +1,38 @@
+
+table{
+    margin-top: 50px;
+    caption-side: bottom;
+    background-color: rgba(91, 204, 38, 0.404);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+
+td,th{
+    border: 8px solid green;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+h3{
+    color: white;
+    text-shadow: 1px 2px 2px black, 0 0 25px blue,0 0 5px blueviolet;
+    text-align: center;
+
+}
+
+ tabla de categorias*/
+table.especial{
+background-color: beige;
+text-align: center;
+margin-top: 6px;
+margin-left: 4px;
+border-radius: 10px;
+padding: 40rem 20rem;
+}
+
+.categoria {
+    text-align: center;
+}
